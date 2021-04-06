@@ -1,0 +1,30 @@
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider__btn {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.btn-prev {
+  left: 32px;
+}
+
+.btn-next {
+  right: 32px;
+}
+
+.slider__img {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
